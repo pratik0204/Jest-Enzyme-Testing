@@ -2,10 +2,10 @@ import React from 'react'
 import './style.scss';
 const Header = (props)=>{
     return(
-        <header>
+        <header data-test="headerComponent">
             <div className="wrap">
                 <div className="logo">
-                    <img src={require('../../assets/Mono-left.svg')} alt=""/>
+                    <img data-test="logoImg" src={require('../../assets/Mono-left.svg')} alt=""/>
                 </div>
             </div>
         </header>
