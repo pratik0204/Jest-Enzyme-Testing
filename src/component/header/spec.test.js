@@ -18,7 +18,7 @@ describe('Header Component', () => {
     it('It should render without errors', ()=>{
         const wrapper = findByTestAtrr(component,'headerComponent')
 
-        console.log(component.debug())
+        // console.log(component.debug())
 
         expect(wrapper.length).toBe(1);
     })
