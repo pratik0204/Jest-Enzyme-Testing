@@ -39,7 +39,7 @@ class App extends Component{
     }
 
     return(
-      <div className="App">
+      <div className="App" data-test="app">
       <Header/>
       <Headline tempArr={tempArr} header={"Header"} desc="Click the button to render"/>
       <SharedButton {...configButton} />
